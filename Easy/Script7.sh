@@ -3,9 +3,9 @@
 # If the character is 'N' or 'n' display "NO".
 # No other character will be provided as input.
 
-read -p "enter a character" char
+read -p "enter a character: " char
 
-if [ "$char" = "Y" ] ||[ "$char" = "y" ]; then 
+if [ "$char" = "Y" ] || [ "$char" = "y" ]; then 
 
    echo "YES"
 
